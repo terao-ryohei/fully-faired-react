@@ -1,0 +1,54 @@
+{
+  "name": "fully-faired-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bunx --bun vite",
+    "build": "tsc && vite build",
+    "lint": "bunx biome check --apply ./src",
+    "preview": "vite preview",
+    "prepare": "husky",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@kuma-ui/core": "^1.5.6",
+    "@tanstack/react-query": "^5.25.0",
+    "@tanstack/react-router": "^1.19.2",
+    "@tanstack/router-devtools": "^1.19.4",
+    "@tanstack/router-vite-plugin": "^1.19.5",
+    "jotai": "^2.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^8.0.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.6.0",
+    "@commitlint/cli": "^19.0.3",
+    "@commitlint/config-conventional": "^19.0.3",
+    "@kuma-ui/vite": "^1.2.2",
+    "@storybook/addon-essentials": "^8.0.2",
+    "@storybook/addon-interactions": "^8.0.2",
+    "@storybook/addon-links": "^8.0.2",
+    "@storybook/addon-onboarding": "^1.0.11",
+    "@storybook/blocks": "^8.0.2",
+    "@storybook/react": "^8.0.2",
+    "@storybook/react-vite": "^8.0.2",
+    "@storybook/test": "^8.0.2",
+    "@types/react": "^18.2.56",
+    "@types/react-dom": "^18.2.19",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint-plugin-storybook": "^0.8.0",
+    "husky": "^9.0.11",
+    "lightningcss": "^1.24.1",
+    "lint-staged": "^15.2.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": "bun run lint"
+  }
+}

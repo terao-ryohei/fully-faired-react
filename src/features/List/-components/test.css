@@ -1,0 +1,16 @@
+.hero {
+  padding: 4rem 0;
+  text-align: center;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: white;
+}
+.features {
+  padding: 2rem 0;
+}
+.feature {
+  padding: 1rem;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}

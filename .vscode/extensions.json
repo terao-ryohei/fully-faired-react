@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "gruntfuggly.todo-tree",
+    "shardulm94.trailing-spaces",
+    "vscode-icons-team.vscode-icons",
+    "riccardoforina.storybook-helper",
+    "tyriar.sort-lines",
+    "richie5um2.vscode-sort-json",
+    "mechatroner.rainbow-csv",
+    "christian-kohler.path-intellisense",
+    "davidanson.vscode-markdownlint",
+    "naumovs.color-highlight",
+    "wmaurer.change-case",
+    "pandy.bun",
+    "biomejs.biome"
+  ]
+}
