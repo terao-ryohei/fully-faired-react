@@ -40,16 +40,10 @@ cd fully-faired-react
 
 2. **Install dependencies:**
 
-Using Bun:
+Using [Bun](https://bun.sh/):
 
 ```bash
 bun install
-```
-
-Or, if you prefer, using npm:
-
-```bash
-npm install
 ```
 
 3. **Run the development server:**
@@ -58,13 +52,9 @@ npm install
 bun run dev
 ```
 
-Or with npm:
+``
 
-```bash
-npm run dev
-```
-
-Your app should now be running on [http://localhost:3000](http://localhost:3000). Enjoy developing with an advanced setup!
+Your app should now be running on [http://localhost:5173](http://localhost:5173). Enjoy developing with an advanced setup!
 
 ## Features
 
@@ -88,16 +78,5 @@ If you have a suggestion that would make this better, please fork the repo and c
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-## Acknowledgments
-
-- React Community
-- Vite, SWC, and Bun Teams
-- Tanstack
-- Everyone who contributed to making this boilerplate robust and scalable
 
 Jumpstart your React projects with Fully-Faired-React and build amazing web applications with ease!
