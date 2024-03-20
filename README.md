@@ -34,7 +34,7 @@ To get started with Fully-Faired-React, follow these steps:
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/yourusername/fully-faired-react.git
+git clone https://github.com/terao-ryohei/fully-faired-react.git
 cd fully-faired-react
 ```
 
